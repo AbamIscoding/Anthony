@@ -1,0 +1,121 @@
+
+.about{
+    color: #f8f8ff;
+    position: sticky;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding: 150px 0px 50px 100px;
+}
+.container1{
+    padding: 300px 100px 50px 100px;
+}
+.resume{
+    color: #f8f8ff;
+    font-size: 24px;
+}
+.sub{
+    padding-left: 450px;
+    letter-spacing: .5px;
+}
+.sub-name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    padding-top: 14px;
+    margin-left: 150px;
+}
+.sub-brand{
+    color: #f8f8ff;
+    padding-top: 50px;
+    padding-bottom: 26px;
+    padding-left: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+.cotainer2{
+    padding: 0px 100px 50px 100px;
+}
+.con2-1{
+    background-color: #292929;
+    border-radius: 20px;
+    display: flex;
+}
+.logo{
+    padding: 30px 0px 30px 50px;
+    height: 150px;
+    width: auto;
+    border-radius: 100%;
+    background-color: #292929;
+}
+.school{
+    color: #f8f8ff;
+    padding-bottom: 26px;
+    padding-top: 26px;
+    padding-left: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 50px;
+    background-color: #292929;
+}
+.sub-school{
+    background-color: #292929;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #c6c6d6;
+}
+/*Technical skiils starts*/
+
+.sk-art{
+    height: 120px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #292929;
+}
+/*College CSS starts*/
+
+@media screen and (max-width:767px){
+    
+    .about{
+        font-size: 15px;
+        padding-left: 60px;
+        padding-top: 200px;
+        width: 100%;
+        height: auto;
+    }
+    .container1{
+        padding-top: 500px;
+    }
+    .sub{
+        padding-left: 10px;
+        letter-spacing: .5px;
+        
+    }
+    .name{
+        font-size: 32px;
+    }
+    .sub-name{
+        margin-left: 84px;
+        font-size: 22px;
+    }
+    .cotainer2{
+        padding: 0px 25px 50px 25px;
+    }
+    .education{
+        font-size: 20px;
+    }
+    .logo{
+        padding-left: 10px;
+        height: 120px;
+        width: auto;
+    }
+    .school{
+        font-size: 30px;
+    }
+    .sub-school{
+        font-size: 16px;
+    }
+}

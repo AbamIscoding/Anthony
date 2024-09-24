@@ -1,0 +1,21 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Playfair Display", serif;
+}
+.nickname{
+    color: #FFF0D1;
+    position: sticky;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.heading{
+    padding: 30px 50px 20px 30px;
+    display: flex;
+}
+
+/*Practicing */

@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.mainphoto{
+    height: 600px;
+    width: 550px;
+}
+.container1{
+    margin: 100px 150px 50px 150px;
+    display: flex;
+}
+.container2{
+    padding: 0px 100px 0px 100px;
+}
+.name{
+    font-size: 50px;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #FFF0D1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.about-me {
+    padding-top: 30px;
+    color: #FFF0D1;
+    letter-spacing: .6px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.name-container{
+    display: flex;
+}
+.star-emoji{
+    font-size: 50px;
+    margin-right: 8px;
+}
+.new-page{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: #eeda26;
+}
+.arrow{
+    margin-left: 15px;
+}
+
+.click{
+    padding-top: 200px;
+}
+
+/*Projects STARTS*/
+.studies h1{
+    color: #f8f8ff;
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-size: 80px;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding-top: 300px;
+    padding-left: 550px;
+    padding-bottom: 200px;
+}
+
+/*Imges on the projects sizing*/
+.pro-img{
+    height: 100%;
+    width: 800px;
+    border-radius: 15px;
+}
+.northern{
+ display: flex;
+ padding-bottom: 90px;
+ 
+}
+.fortfolio{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.com{
+    padding-top: 4cqmax;
+}
+.projects{
+    padding: 0px 90px 50px 90px;
+    display: flex;
+    flex-direction: column;
+}
+.sub{
+    margin-top: 50px;
+    color: #f8f8ff;
+    letter-spacing: .5px;
+    padding-left: 80px;
+}
+.title-project{
+    font-size: 30px;
+}
+.para-project{
+    font-family: "Roboto", sans-serif;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 100px;
+}
+.language{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100px;
+}
+
+
+@media screen and (max-width:767px) {
+    /*CSS RULES FOR MOBILE DEVIES*/
+    .name{
+        font-size: 35px;
+    }
+    .about-me{
+        font-size: 22px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        margin: 60px 40px 20px 40px;
+    }
+    .container2{
+        padding: 40px 5px 10px 5px;
+    }
+    .mainphoto{
+        width: 100%;
+        height: auto;
+    }
+    .star-emoji{
+        font-size: 45px;
+    }
+    .click{
+        padding-top: 100px;
+    }
+
+    /*CASE STUDDIES STARTS*/
+    .studies h1{
+        padding-top: 100px;
+        padding-left: 120px;
+        font-size: 50px;
+        padding-bottom: 50px;
+    }
+    .northern{
+        display: flex;
+        flex-direction: column;
+    }
+    .pro-img{
+        width: 400px;
+        height: auto;
+    }
+    .projects{
+        padding-left: 45px;
+    }
+    .sub{
+        padding-left: 25px;
+    }
+    .title-project{
+        font-size: 30px;
+    }
+    .fortfolio{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     /*CSS RULES FOR TABLETS/IPAD*/
+     .name{
+        font-size: 35px;
+    }
+    .about-me{
+        font-size: 22px;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        margin: 60px 40px 20px 40px;
+    }
+    .container2{
+        padding: 40px 5px 10px 5px;
+    }
+    .mainphoto{
+        width: 100%;
+        height: auto;
+    }
+    .star-emoji{
+        font-size: 35px;
+    }
+    .click{
+        padding-top: 100px;
+    }
+    
+}
+    
